@@ -1,0 +1,4211 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<dmetric>1080.0,1794.0</dmetric>
+	<Profile sr="prof132" ve="2">
+		<cdate>1484430602458</cdate>
+		<clp>true</clp>
+		<edate>1484583229275</edate>
+		<id>132</id>
+		<mid0>113</mid0>
+		<nme>HomeSet</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%Home</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof133" ve="2">
+		<cdate>1484430602461</cdate>
+		<clp>true</clp>
+		<edate>1484583222139</edate>
+		<flags>9</flags>
+		<id>133</id>
+		<mid0>60</mid0>
+		<mid1>108</mid1>
+		<nme>Home</nme>
+		<State sr="con0" ve="2">
+			<code>142</code>
+			<Str sr="arg0" ve="3">*Home-Wifi*/*Home-Location*</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof134" ve="2">
+		<cdate>1484430602464</cdate>
+		<clp>true</clp>
+		<edate>1484406751305</edate>
+		<flags>9</flags>
+		<id>134</id>
+		<mid0>89</mid0>
+		<nme>Away</nme>
+		<State sr="con0" ve="2">
+			<code>983573810</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<GeofenceByName>Home-outter</GeofenceByName>
+					<GeofenceByName-type>java.lang.String</GeofenceByName-type>
+					<GeofenceUseRegex>false</GeofenceUseRegex>
+					<GeofenceUseRegex-type>java.lang.Boolean</GeofenceUseRegex-type>
+					<Name>&lt;null&gt;</Name>
+					<Name-type>java.lang.String</Name-type>
+					<Transition>2</Transition>
+					<Transition-type>java.lang.String</Transition-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Geofence Name: Home-outter
+Status: Outside</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Name Transition GeofenceByName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>df8f4eb2-6aef-4e0e-b04c-06c0ef75385a</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentGeofenceReported</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigGeofenceReported</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof135" ve="2">
+		<cdate>1484430602467</cdate>
+		<clp>true</clp>
+		<edate>1484434998882</edate>
+		<flags>9</flags>
+		<id>135</id>
+		<mid0>55</mid0>
+		<nme>Home-outter</nme>
+		<State sr="con0" ve="2">
+			<code>983573810</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<GeofenceByName>Home-outter</GeofenceByName>
+					<GeofenceByName-type>java.lang.String</GeofenceByName-type>
+					<GeofenceUseRegex>false</GeofenceUseRegex>
+					<GeofenceUseRegex-type>java.lang.Boolean</GeofenceUseRegex-type>
+					<Name>&lt;null&gt;</Name>
+					<Name-type>java.lang.String</Name-type>
+					<Transition>1</Transition>
+					<Transition-type>java.lang.String</Transition-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Geofence Name: Home-outter
+Status: Inside</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Name Transition GeofenceByName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>0669ba33-4110-4741-97bd-e14b87c5e01d</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentGeofenceReported</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigGeofenceReported</Str>
+		</State>
+		<State sr="con1" ve="2">
+			<code>983573810</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<GeofenceByName>Home-inner</GeofenceByName>
+					<GeofenceByName-type>java.lang.String</GeofenceByName-type>
+					<GeofenceUseRegex>false</GeofenceUseRegex>
+					<GeofenceUseRegex-type>java.lang.Boolean</GeofenceUseRegex-type>
+					<Name>&lt;null&gt;</Name>
+					<Name-type>java.lang.String</Name-type>
+					<Transition>2</Transition>
+					<Transition-type>java.lang.String</Transition-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Geofence Name: Home-inner
+Status: Outside</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Name Transition GeofenceByName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>fdf6c989-7b12-4493-8d93-79bb66eb170b</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentGeofenceReported</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigGeofenceReported</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof136" ve="2">
+		<cdate>1484430602472</cdate>
+		<clp>true</clp>
+		<edate>1484406920108</edate>
+		<id>136</id>
+		<mid0>88</mid0>
+		<nme>BeaconsClick</nme>
+		<Event sr="con0" ve="2">
+			<code>2000</code>
+			<pri>0</pri>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg></appPkg>
+				<label>*</label>
+			</App>
+			<Str sr="arg1" ve="3">Beacons</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof137" ve="2">
+		<cdate>1484430602476</cdate>
+		<clp>true</clp>
+		<edate>1484490401336</edate>
+		<flags>1</flags>
+		<id>137</id>
+		<limit>true</limit>
+		<mid0>57</mid0>
+		<nme>Beacon Appearred</nme>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">net.beaconradar.BEACON_APPEARED</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof138" ve="2">
+		<cdate>1484430602480</cdate>
+		<clp>true</clp>
+		<edate>1484506332103</edate>
+		<flags>9</flags>
+		<id>138</id>
+		<mid0>8</mid0>
+		<nme>Home-Location</nme>
+		<State sr="con0" ve="2">
+			<code>983573810</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<GeofenceByName>Home-inner</GeofenceByName>
+					<GeofenceByName-type>java.lang.String</GeofenceByName-type>
+					<GeofenceUseRegex>false</GeofenceUseRegex>
+					<GeofenceUseRegex-type>java.lang.Boolean</GeofenceUseRegex-type>
+					<Name>&lt;null&gt;</Name>
+					<Name-type>java.lang.String</Name-type>
+					<Transition>1</Transition>
+					<Transition-type>java.lang.String</Transition-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Geofence Name: Home-inner
+Status: Inside</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Name Transition GeofenceByName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>077eb584-5173-4b82-a7ef-d62513b29ad3</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentGeofenceReported</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigGeofenceReported</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof139" ve="2">
+		<cdate>1484430602484</cdate>
+		<clp>true</clp>
+		<edate>1484583158082</edate>
+		<id>139</id>
+		<mid0>130</mid0>
+		<nme>Scan</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Scan</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+		<State sr="con1" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Home</lhs>
+					<op>2</op>
+					<rhs>Home</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof140" ve="2">
+		<cdate>1484430602488</cdate>
+		<clp>true</clp>
+		<edate>1484583158368</edate>
+		<flags>1</flags>
+		<id>140</id>
+		<mid0>122</mid0>
+		<Event sr="con0" ve="2">
+			<code>309</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="15"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof141" ve="2">
+		<cdate>1484430602492</cdate>
+		<clp>true</clp>
+		<edate>1484490402111</edate>
+		<flags>1</flags>
+		<id>141</id>
+		<limit>true</limit>
+		<mid0>58</mid0>
+		<nme>Beacon Dissappeared</nme>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">net.beaconradar.BEACON_DISAPPEARED</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof142" ve="2">
+		<cdate>1484430602498</cdate>
+		<clp>true</clp>
+		<edate>1484435038291</edate>
+		<flags>9</flags>
+		<id>142</id>
+		<mid0>54</mid0>
+		<mid1>56</mid1>
+		<nme>Home-Wifi</nme>
+		<State sr="con0" ve="2">
+			<code>160</code>
+			<Str sr="arg0" ve="3">%SSID</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof143" ve="2">
+		<cdate>1484430602501</cdate>
+		<clp>true</clp>
+		<edate>1484583157258</edate>
+		<flags>1</flags>
+		<id>143</id>
+		<mid0>59</mid0>
+		<nme>Beacon Visable</nme>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">net.beaconradar.BEACON_VISIBLE</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof144" ve="2">
+		<cdate>1484430602507</cdate>
+		<clp>true</clp>
+		<edate>1484499627633</edate>
+		<flags>1</flags>
+		<id>144</id>
+		<mid0>125</mid0>
+		<nme>LocationSet</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%Location</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1482516958521</cdate>
+		<name>Beacons</name>
+		<pids>132,141,143,140,144,134,137,139,136,142,135,138,133</pids>
+		<scenes>Status,Settings</scenes>
+		<tids>130,88,128,122,114,109,13,62,127,124,96,116,111,85,61,126,120,121,89,131,110,57,91,8,108,125,93,106,119,60,58,97,54,55,113,59,56</tids>
+		<Kid sr="Kid">
+			<feat0>android.hardware.wifi:y</feat0>
+			<launchID>88</launchID>
+			<pkg>com.lebaugh.matt</pkg>
+			<vMin>20</vMin>
+			<vnme>2.2</vnme>
+			<vnum>281</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<cls>com.radiusnetworks.radbeacon.RadBeaconListActivity</cls>
+			<pkg>com.radiusnetworks.radbeacon</pkg>
+		</Img>
+	</Project>
+	<Scene sr="sceneSettings">
+		<cdate>1482872299355</cdate>
+		<edate>1484583616061</edate>
+		<heightLand>450</heightLand>
+		<heightPort>1200</heightPort>
+		<nme>Settings</nme>
+		<widthLand>600</widthLand>
+		<widthPort>900</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>50,250,725,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text21</Str>
+			<Str sr="arg1" ve="3">Permanent Notification</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>127</clickTask>
+			<flags>4</flags>
+			<geom>50,150,800,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Locations: %Locations()</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements10" ve="3">
+			<clickTask>110</clickTask>
+			<flags>4</flags>
+			<geom>50,850,800,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text223</Str>
+			<Str sr="arg1" ve="3">Scan Length: %Scanlength</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<clickTask>97</clickTask>
+			<flags>4</flags>
+			<geom>50,950,800,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text2231</Str>
+			<Str sr="arg1" ve="3">Wifi SSID: %SSID</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<clickTask>13</clickTask>
+			<flags>4</flags>
+			<geom>50,50,800,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">User</Str>
+			<Str sr="arg1" ve="3">User: %User</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<CheckBoxElement sr="elements2">
+			<checkchangeTask>114</checkchangeTask>
+			<flags>4</flags>
+			<geom>775,250,75,75,50,250,100,100</geom>
+			<Str sr="arg0" ve="3">Checkbox1</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFA9A9A9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>50,350,725,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text211</Str>
+			<Str sr="arg1" ve="3">Location Change Notifications</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<CheckBoxElement sr="elements4">
+			<checkchangeTask>91</checkchangeTask>
+			<flags>4</flags>
+			<geom>775,350,75,75,50,250,100,100</geom>
+			<Str sr="arg0" ve="3">Checkbox11</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFA9A9A9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<CheckBoxElement sr="elements5">
+			<checkchangeTask>126</checkchangeTask>
+			<flags>4</flags>
+			<geom>775,450,75,75,50,250,100,100</geom>
+			<Str sr="arg0" ve="3">Checkbox12</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFA9A9A9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>50,450,725,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text2111</Str>
+			<Str sr="arg1" ve="3">Home/Away Notifications</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<clickTask>109</clickTask>
+			<flags>4</flags>
+			<geom>50,550,810,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text22</Str>
+			<Str sr="arg1" ve="3">Number of periods to average: %Periodavg</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<clickTask>106</clickTask>
+			<flags>4</flags>
+			<geom>50,650,800,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text221</Str>
+			<Str sr="arg1" ve="3">Rssi threshold: %Threshold</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<clickTask>128</clickTask>
+			<flags>4</flags>
+			<geom>50,750,800,75,5,323,326,74</geom>
+			<Str sr="arg0" ve="3">Text222</Str>
+			<Str sr="arg1" ve="3">Scan Freqency: %Scanfreq</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF161616</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="2"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<itemselectedTask>96</itemselectedTask>
+			<keyTask>121</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFF0F0F0</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Settings</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneStatus">
+		<cdate>1482854581404</cdate>
+		<edate>1484584414613</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1400</heightPort>
+		<nme>Status</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>900</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,80,900,60,25,25,652,75</geom>
+			<Str sr="arg0" ve="3">CurrentLocation</Str>
+			<Str sr="arg1" ve="3">Current Location: %Location</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>25,175,850,125,25,120,850,250</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFDADADA</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>75,400,800,50,60,500,600,50</geom>
+			<Str sr="arg0" ve="3">RSSI2</Str>
+			<Str sr="arg1" ve="3">%Detail2</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>75,550,800,50,60,750,600,50</geom>
+			<Str sr="arg0" ve="3">RSSI3</Str>
+			<Str sr="arg1" ve="3">%Detail3</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>75,700,800,50,60,1025,600,60</geom>
+			<Str sr="arg0" ve="3">RSSI4</Str>
+			<Str sr="arg1" ve="3">%Detail4</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<flags>4</flags>
+			<geom>25,1275,850,50,25,925,850,250</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">%TRUN</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements14" ve="3">
+			<flags>4</flags>
+			<geom>0,20,900,60,25,25,652,75</geom>
+			<Str sr="arg0" ve="3">Home</Str>
+			<Str sr="arg1" ve="3">Home: %Home</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements15" ve="3">
+			<flags>4</flags>
+			<geom>25,1325,850,50,25,925,850,250</geom>
+			<Str sr="arg0" ve="3">Text111</Str>
+			<Str sr="arg1" ve="3">%PACTIVE</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements16">
+			<flags>4</flags>
+			<geom>25,775,850,125,30,600,840,240</geom>
+			<Str sr="arg0" ve="3">Rectangle5</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFDADADA</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements17" ve="3">
+			<flags>4</flags>
+			<geom>50,775,600,75,60,400,600,100</geom>
+			<Str sr="arg0" ve="3">Loc5</Str>
+			<Str sr="arg1" ve="3">%Location5</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0B0B0B</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements18" ve="3">
+			<flags>4</flags>
+			<geom>75,850,800,50,60,1025,600,60</geom>
+			<Str sr="arg0" ve="3">RSSI5</Str>
+			<Str sr="arg1" ve="3">%Detail5</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements19">
+			<flags>4</flags>
+			<geom>25,925,850,125,30,600,840,240</geom>
+			<Str sr="arg0" ve="3">Rectangle6</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFDADADA</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>25,325,850,125,25,400,850,250</geom>
+			<Str sr="arg0" ve="3">Rectangle2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFDADADA</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements20" ve="3">
+			<flags>4</flags>
+			<geom>50,928,600,75,60,400,600,100</geom>
+			<Str sr="arg0" ve="3">Loc6</Str>
+			<Str sr="arg1" ve="3">%Location6</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0B0B0B</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements21" ve="3">
+			<flags>4</flags>
+			<geom>75,1000,800,50,60,1025,600,60</geom>
+			<Str sr="arg0" ve="3">RSSI6</Str>
+			<Str sr="arg1" ve="3">%Detail6</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>25,475,850,125,25,675,850,250</geom>
+			<Str sr="arg0" ve="3">Rectangle3</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFDADADA</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements4">
+			<flags>4</flags>
+			<geom>25,625,850,125,30,600,840,240</geom>
+			<Str sr="arg0" ve="3">Rectangle4</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77FFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFDADADA</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>50,175,600,75,60,125,600,100</geom>
+			<Str sr="arg0" ve="3">Loc1</Str>
+			<Str sr="arg1" ve="3">%Location1</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0B0B0B</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>50,325,600,75,60,400,600,100</geom>
+			<Str sr="arg0" ve="3">Loc2</Str>
+			<Str sr="arg1" ve="3">%Location2</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0B0B0B</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>50,475,600,75,60,400,600,100</geom>
+			<Str sr="arg0" ve="3">Loc3</Str>
+			<Str sr="arg1" ve="3">%Location3</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0B0B0B</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>50,625,600,75,60,400,600,100</geom>
+			<Str sr="arg0" ve="3">Loc4</Str>
+			<Str sr="arg1" ve="3">%Location4</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0B0B0B</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>75,250,800,50,60,225,600,50</geom>
+			<Str sr="arg0" ve="3">RSSI1</Str>
+			<Str sr="arg1" ve="3">%Detail1</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<itemselectedTask>116</itemselectedTask>
+			<keyTask>93</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFEDEDED</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Beacons</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0"/>
+			<ListElementItem sr="item0">
+				<label>Settings</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Settings</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Scan Now</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">ScanNow</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task106">
+		<cdate>1483666149489</cdate>
+		<edate>1483666149489</edate>
+		<id>106</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>1304982781</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: Rssi must be greater than this value for location to be set 
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 2
+Input Text: %Threshold
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"#§£§£§@VARIABLE#§£§£§@%Threshold#§£§£§@VARIABLE#§£§£§@","inputType":"2","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"Rssi must be greater than this value for location to be set "}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Threshold</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task108">
+		<cdate>1483452737753</cdate>
+		<edate>1484506314738</edate>
+		<id>108</id>
+		<nme>ExitHome</nme>
+		<pri>1006</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%var</Str>
+			<Str sr="arg1" ve="3">%Locations()</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%array</Str>
+			<Str sr="arg1" ve="3">array</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%vararray</Str>
+			<Str sr="arg1" ve="3">%var%array</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%%vararray</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%%var</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Location</Str>
+			<Str sr="arg1" ve="3">Away</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Location</lhs>
+					<op>3</op>
+					<rhs>Away</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Home</Str>
+			<Str sr="arg1" ve="3">Away</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Home</lhs>
+					<op>3</op>
+					<rhs>Away</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>133</code>
+			<Int sr="arg0" val="21"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task109">
+		<cdate>1483666149489</cdate>
+		<edate>1483666149489</edate>
+		<id>109</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>1304982781</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: Number of periods to average
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 2
+Input Text: %Periodavg
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"#§£§£§@VARIABLE#§£§£§@%Periodavg#§£§£§@VARIABLE#§£§£§@","inputType":"2","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"Number of periods to average"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Periodavg</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task110">
+		<cdate>1483666149489</cdate>
+		<edate>1483666149489</edate>
+		<id>110</id>
+		<pri>103</pri>
+		<Action sr="act0" ve="7">
+			<code>1304982781</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: Scan length
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 2
+Input Text: %Scanlength
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"#§£§£§@VARIABLE#§£§£§@%Scanlength#§£§£§@VARIABLE#§£§£§@","inputType":"2","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"Scan length"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Scanlength</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task111">
+		<cdate>1484105517337</cdate>
+		<edate>1484431731143</edate>
+		<id>111</id>
+		<nme>Settings</nme>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Checkbox1</Str>
+			<Int sr="arg2" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PermNot</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Checkbox11</Str>
+			<Int sr="arg2" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ChangeNot</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Checkbox12</Str>
+			<Int sr="arg2" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%HomeNot</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task113">
+		<cdate>1483668732145</cdate>
+		<edate>1484583229275</edate>
+		<id>113</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Str sr="arg1" ve="3">%Home</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%HomeNot</lhs>
+					<op>12</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Str sr="arg1" ve="3">%Home | %Location</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PermNot</lhs>
+					<op>12</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+			<ListElementItem sr="item0">
+				<label>Disable</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Disable</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">NewLocation</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task114">
+		<cdate>1483667264069</cdate>
+		<edate>1483667264069</edate>
+		<id>114</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PermNot</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Str sr="arg1" ve="3">%Home | %Location</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PermNot</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+			<ListElementItem sr="item0">
+				<label>Disable</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Disable</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%PermNot</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task116">
+		<cdate>1484107464102</cdate>
+		<edate>1484107464102</edate>
+		<id>116</id>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">%tap_label</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Status</Str>
+		</Action>
+	</Task>
+	<Task sr="task119">
+		<cdate>1482012166150</cdate>
+		<edate>1484584575459</edate>
+		<id>119</id>
+		<nme>UpdatePresence</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetChecksLow</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%retry</Str>
+			<Str sr="arg1" ve="3">6</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%st_attr_values(1)</lhs>
+					<op>3</op>
+					<rhs>%presence</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%setat</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>1620773086</code>
+			<label>set at</label>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<android.intent.extra.shortcut.ICON_RESOURCE>com.boshdirect.stwidgets:drawable/ic_thing</android.intent.extra.shortcut.ICON_RESOURCE>
+					<android.intent.extra.shortcut.ICON_RESOURCE-type>java.lang.String</android.intent.extra.shortcut.ICON_RESOURCE-type>
+					<android.intent.extra.shortcut.INTENT>Intent { act=android.intent.action.MAIN flg=0x40000000 cmp=com.boshdirect.stwidgets/.ToggleThingActivity (has extras) }</android.intent.extra.shortcut.INTENT>
+					<android.intent.extra.shortcut.INTENT-type>java.lang.String</android.intent.extra.shortcut.INTENT-type>
+					<android.intent.extra.shortcut.NAME></android.intent.extra.shortcut.NAME>
+					<android.intent.extra.shortcut.NAME-type>java.lang.String</android.intent.extra.shortcut.NAME-type>
+					<arg_types>&lt;StringArray sr=""/&gt;</arg_types>
+					<arg_types-type>[Ljava.lang.String;</arg_types-type>
+					<arguments>&lt;StringArray sr=""/&gt;</arguments>
+					<arguments-type>[Ljava.lang.String;</arguments-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Thing: %thing
+Command: %par2</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<command>%par2</command>
+					<command-type>java.lang.String</command-type>
+					<isParameterOverridden>false</isParameterOverridden>
+					<isParameterOverridden-type>java.lang.Boolean</isParameterOverridden-type>
+					<isTaskerVariableMode>true</isTaskerVariableMode>
+					<isTaskerVariableMode-type>java.lang.Boolean</isTaskerVariableMode-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>arguments thingID command</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<thingID>%thing</thingID>
+					<thingID-type>java.lang.String</thingID-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.boshdirect.stwidgets</Str>
+			<Str sr="arg2" ve="3">com.boshdirect.stwidgets.ThingShortcutActivity</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%setat</lhs>
+					<op>9</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%setat</Str>
+			<Str sr="arg1" ve="3">%setat+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%st_attr_values(1)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%getat2</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>1339942270</code>
+			<label>getat2</label>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<attributes>&lt;StringArray sr=""&gt;&lt;_array_attributes0&gt;presence&lt;/_array_attributes0&gt;&lt;/StringArray&gt;</attributes>
+					<attributes-type>[Ljava.lang.String;</attributes-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Thing: %thing
+Attribute: presence
+
+The following variable arrays are set when triggered:
+%st_attr_names()
+%st_attr_values()
+%st_thing_ids()
+%st_thing_names()</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<fire_action>1</fire_action>
+					<fire_action-type>java.lang.Integer</fire_action-type>
+					<isTaskerVariableMode>true</isTaskerVariableMode>
+					<isTaskerVariableMode-type>java.lang.Boolean</isTaskerVariableMode-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>thingID</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<thingID>%thing</thingID>
+					<thingID-type>java.lang.String</thingID-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.boshdirect.stwidgets</Str>
+			<Str sr="arg2" ve="3">com.boshdirect.stwidgets.ThingAttributeActivity</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%getat2</lhs>
+					<op>9</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%getat2</Str>
+			<Str sr="arg1" ve="3">%getat2+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%thing</Str>
+			<Str sr="arg1" ve="3">%User %par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">getat2</Str>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%st_attr_values(1)</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%getat2</lhs>
+					<op>6</op>
+					<rhs>%retry</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">set at</Str>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%setat</lhs>
+					<op>6</op>
+					<rhs>%retry</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%st_attr_values(1)</lhs>
+					<op>3</op>
+					<rhs>%presence</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Error</Str>
+			<Str sr="arg1" ve="3">Failed to update presence
+Checked %getat times
+Set value %setat2 time
+Checked %setat times</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%st_attr_values(1)</lhs>
+					<op>3</op>
+					<rhs>%presence</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetChecksHigh</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>3</op>
+					<rhs>*Home-outter*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%return</Str>
+			<Str sr="arg1" ve="3">error</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%st_attr_values(1)</lhs>
+					<op>3</op>
+					<rhs>%presence</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%return</Str>
+			<Str sr="arg1" ve="3">success</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%st_attr_values(1)</lhs>
+					<op>2</op>
+					<rhs>%presence</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%return</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%presence</Str>
+			<Str sr="arg1" ve="3">present</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>arrived</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%presence</Str>
+			<Str sr="arg1" ve="3">not present</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>3</op>
+					<rhs>arrived</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%getat</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>1339942270</code>
+			<label>get at</label>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<attributes>&lt;StringArray sr=""&gt;&lt;_array_attributes0&gt;presence&lt;/_array_attributes0&gt;&lt;/StringArray&gt;</attributes>
+					<attributes-type>[Ljava.lang.String;</attributes-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Thing: %thing
+Attribute: presence
+
+The following variable arrays are set when triggered:
+%st_attr_names()
+%st_attr_values()
+%st_thing_ids()
+%st_thing_names()</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<fire_action>1</fire_action>
+					<fire_action-type>java.lang.Integer</fire_action-type>
+					<isTaskerVariableMode>true</isTaskerVariableMode>
+					<isTaskerVariableMode-type>java.lang.Boolean</isTaskerVariableMode-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>thingID</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<thingID>%thing</thingID>
+					<thingID-type>java.lang.String</thingID-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.boshdirect.stwidgets</Str>
+			<Str sr="arg2" ve="3">com.boshdirect.stwidgets.ThingAttributeActivity</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%getat</lhs>
+					<op>9</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%getat</Str>
+			<Str sr="arg1" ve="3">%getat+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">get at</Str>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%st_attr_values(1)</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%getat</lhs>
+					<op>6</op>
+					<rhs>%retry</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task120">
+		<cdate>1483661872837</cdate>
+		<edate>1484404199958</edate>
+		<id>120</id>
+		<nme>Disable</nme>
+		<Action sr="act0" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>139</code>
+		</Action>
+	</Task>
+	<Task sr="task121">
+		<cdate>1484106154645</cdate>
+		<edate>1484106154645</edate>
+		<id>121</id>
+		<pri>103</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+		</Action>
+	</Task>
+	<Task sr="task122">
+		<cdate>1483977861743</cdate>
+		<edate>1484491705929</edate>
+		<id>122</id>
+		<nme>ScanNow</nme>
+		<pri>6</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Scan</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Scan</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="20"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Scan</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task124">
+		<cdate>1483985961267</cdate>
+		<edate>1484495354518</edate>
+		<id>124</id>
+		<nme>ProcessLocations</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>39</code>
+			<label>Push past polls, discard old</label>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">1:%Locations(#)</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%Locations(%count)</Str>
+			<Str sr="arg1" ve="3">-200</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%%Locations(%count)</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>1446947155</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<CalculateAverage>true</CalculateAverage>
+					<CalculateAverage-type>java.lang.Boolean</CalculateAverage-type>
+					<CalculateMax>false</CalculateMax>
+					<CalculateMax-type>java.lang.Boolean</CalculateMax-type>
+					<CalculateMin>false</CalculateMin>
+					<CalculateMin-type>java.lang.Boolean</CalculateMin-type>
+					<CalculateSum>false</CalculateSum>
+					<CalculateSum-type>java.lang.Boolean</CalculateSum-type>
+					<Numbers>%%Locations(%count)</Numbers>
+					<Numbers-type>java.lang.String</Numbers-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Numbers: %%Locations(%count)
+Calculate Average: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ataverage
+Average
+The average of all the values for the specified numbers&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Numbers plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>1ac8b26b-2d87-49e8-a598-4f44ba60d01c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentMath</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigMath</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AvgRSSI(%count)</Str>
+			<Str sr="arg1" ve="3">%ataverage/1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%var</Str>
+			<Str sr="arg1" ve="3">%%Locations(%count)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%var</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PingCount(%count)</Str>
+			<Str sr="arg1" ve="3">%var(#)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%lowest</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%ataverage</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%pingcount</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%var(#)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%%Locations(%count)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>369</code>
+			<Str sr="arg0" ve="3">%lowest</Str>
+			<Int sr="arg1" val="11"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%array</Str>
+			<Str sr="arg1" ve="3">array</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>369</code>
+			<Str sr="arg0" ve="3">%pingcount</Str>
+			<Int sr="arg1" val="11"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>547</code>
+			<label>Set away if all locations are too far</label>
+			<Str sr="arg0" ve="3">%Location</Str>
+			<Str sr="arg1" ve="3">Away</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%lowest(&lt;)</lhs>
+					<op>6</op>
+					<rhs>%Threshold</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%Location</lhs>
+					<op>3</op>
+					<rhs>Away</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>39</code>
+			<label>Set Location</label>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">1:%Locations(#)</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%lowest(&lt;)</lhs>
+					<op>7</op>
+					<rhs>%Threshold</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Location</Str>
+			<Str sr="arg1" ve="3">%Locations(%count)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%AvgRSSI(%count)</lhs>
+					<op>8</op>
+					<rhs>%lowest(&lt;)</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PingCount(%count)</lhs>
+					<op>8</op>
+					<rhs>%pingcount(&lt;)</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%Location</lhs>
+					<op>3</op>
+					<rhs>%Locations(%count)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>1508929357</code>
+			<label>Sort arrays</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ArraysFilter>&lt;null&gt;</ArraysFilter>
+					<ArraysFilter-type>java.lang.String</ArraysFilter-type>
+					<ArraysItemSeparator>,</ArraysItemSeparator>
+					<ArraysItemSeparator-type>java.lang.String</ArraysItemSeparator-type>
+					<ArraysUnique>false</ArraysUnique>
+					<ArraysUnique-type>java.lang.Boolean</ArraysUnique-type>
+					<InputArraysMan>%AvgRSSI()|%Locations()|%PingCount()</InputArraysMan>
+					<InputArraysMan-type>java.lang.String</InputArraysMan-type>
+					<InputIsFile>false</InputIsFile>
+					<InputIsFile-type>java.lang.Boolean</InputIsFile-type>
+					<JoinMergedArrays>&lt;null&gt;</JoinMergedArrays>
+					<JoinMergedArrays-type>java.lang.String</JoinMergedArrays-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<MergeArrays>false</MergeArrays>
+					<MergeArrays-type>java.lang.Boolean</MergeArrays-type>
+					<MergeFormat>&lt;null&gt;</MergeFormat>
+					<MergeFormat-type>java.lang.String</MergeFormat-type>
+					<MergedArrayJoiner>&lt;null&gt;</MergedArrayJoiner>
+					<MergedArrayJoiner-type>java.lang.String</MergedArrayJoiner-type>
+					<MergedArrayName>atmergedarray</MergedArrayName>
+					<MergedArrayName-type>java.lang.String</MergedArrayName-type>
+					<OnlyNewClearForAll>false</OnlyNewClearForAll>
+					<OnlyNewClearForAll-type>java.lang.Boolean</OnlyNewClearForAll-type>
+					<OnlyNewClearForName>false</OnlyNewClearForName>
+					<OnlyNewClearForName-type>java.lang.Boolean</OnlyNewClearForName-type>
+					<OnlyNewName>&lt;null&gt;</OnlyNewName>
+					<OnlyNewName-type>java.lang.String</OnlyNewName-type>
+					<OutputSeparator>,</OutputSeparator>
+					<OutputSeparator-type>java.lang.String</OutputSeparator-type>
+					<PopPosition>&lt;null&gt;</PopPosition>
+					<PopPosition-type>java.lang.String</PopPosition-type>
+					<Push>&lt;null&gt;</Push>
+					<Push-type>java.lang.String</Push-type>
+					<PushPosition>&lt;null&gt;</PushPosition>
+					<PushPosition-type>java.lang.String</PushPosition-type>
+					<Randomize>false</Randomize>
+					<Randomize-type>java.lang.Boolean</Randomize-type>
+					<Separator>|</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SortArraysInvertMan>true</SortArraysInvertMan>
+					<SortArraysInvertMan-type>java.lang.Boolean</SortArraysInvertMan-type>
+					<SortArraysMan>true</SortArraysMan>
+					<SortArraysMan-type>java.lang.Boolean</SortArraysMan-type>
+					<SortArraysOutputNamesMan>AvgRSSI,Locations,PingCount</SortArraysOutputNamesMan>
+					<SortArraysOutputNamesMan-type>java.lang.String</SortArraysOutputNamesMan-type>
+					<VerticalMode>false</VerticalMode>
+					<VerticalMode-type>java.lang.Boolean</VerticalMode-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Input Arrays: %AvgRSSI()|%Locations()|%PingCount()
+Separator: |
+Item Separator: ,
+Names: AvgRSSI,Locations,PingCount
+Output Variables Separator: ,
+Sort Arrays: true
+Invert: true
+Merged Array Name: atmergedarray</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%avgrssi()
+avgrssi
+avgrssi&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%locations()
+locations
+locations&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%pingcount()
+pingcount
+pingcount&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InputArraysMan SortArraysOutputNamesMan OutputSeparator Separator MergedArrayName ArraysItemSeparator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>62f67153-c686-4e35-a05b-f02380ac4fcc</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentSortArrays</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigSortArrays</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Details</Str>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>39</code>
+			<label>Set Scene info</label>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">1:%locations(#)</Str>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%locationcount</Str>
+			<Str sr="arg1" ve="3">%location%count</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%vararray</Str>
+			<Str sr="arg1" ve="3">%Locations(%count)%array</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%locationcount</Str>
+			<Str sr="arg1" ve="3">%locations(%count)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%detail</Str>
+			<Str sr="arg1" ve="3">Detail</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%detailcount</Str>
+			<Str sr="arg1" ve="3">%detail%count</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%detailcount</Str>
+			<Str sr="arg1" ve="3">RSSI: %avgrssi(%count) | PingCount: %pingcount(%count)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Details</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%locations(%count) | RSSI: %avgrssi(%count) | PingCount: %pingcount(%count)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%%vararray</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%%Locations(%count)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%%vararray</Str>
+			<Int sr="arg1" val="100"/>
+			<Str sr="arg2" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%%vararray(#)</lhs>
+					<op>7</op>
+					<rhs>%Periodavg</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="6"/>
+			<Str sr="arg2" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%%vararray(#)</lhs>
+					<op>7</op>
+					<rhs>%Periodavg</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%Locations(%count)</Str>
+			<Str sr="arg1" ve="3">%%vararray()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>39</code>
+			<label>Average all periods</label>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">1:%Locations(#)</Str>
+		</Action>
+	</Task>
+	<Task sr="task125">
+		<cdate>1484406664533</cdate>
+		<edate>1484499627633</edate>
+		<id>125</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Str sr="arg1" ve="3">%Home | %Location</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ChangeNot</lhs>
+					<op>12</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Str sr="arg1" ve="3">%Home | %Location</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PermNot</lhs>
+					<op>12</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+			<ListElementItem sr="item0">
+				<label>Disable</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Disable</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">NewLocation</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task126">
+		<cdate>1483667264069</cdate>
+		<edate>1483667264069</edate>
+		<id>126</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%HomeNot</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%HomeNot</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Checkbox12</Str>
+			<Int sr="arg2" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Checkbox12</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task127">
+		<cdate>1483666149489</cdate>
+		<edate>1483666149489</edate>
+		<id>127</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>1304982781</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: Locations (separate multiple with comma ex: bedroom,livingroom)
+Text Size: 20
+Input Type: 0
+Input Text: %Locations()
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"#§£§£§@VARIABLE#§£§£§@%Locations()#§£§£§@VARIABLE#§£§£§@","inputType":"0","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"textSize":"20","useHtml":false},"title":"Locations (separate multiple with comma ex: bedroom,livingroom)"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%attext</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Locations</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%var</Str>
+			<Str sr="arg1" ve="3">%attext()</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Locations</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%var</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>40</code>
+		</Action>
+	</Task>
+	<Task sr="task128">
+		<cdate>1483666149489</cdate>
+		<edate>1483666149489</edate>
+		<id>128</id>
+		<pri>103</pri>
+		<Action sr="act0" ve="7">
+			<code>1304982781</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: Scan frequency
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 2
+Input Text: %Scanfreq
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"#§£§£§@VARIABLE#§£§£§@%Scanfreq#§£§£§@VARIABLE#§£§£§@","inputType":"2","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"Scan frequency"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Scanfreq</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1483666149489</cdate>
+		<edate>1483666149489</edate>
+		<id>13</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>1304982781</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: User
+Icon: android.resource://net.dinglisch.android.taskerm/hd_social_person
+Text Size: 20
+Input Type: 0
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputType":"0","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"icon":"android.resource://net.dinglisch.android.taskerm/hd_social_person","textSettings":{"textSize":"20","useHtml":false},"title":"User"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>07454212-1a13-4d0e-9732-4d9bc7d639e2</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%User</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task130">
+		<cdate>1484021937741</cdate>
+		<edate>1484491665270</edate>
+		<id>130</id>
+		<nme>Scan</nme>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%count2</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3">Scan</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%count</lhs>
+					<op>6</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>877</code>
+			<label>Scan</label>
+			<Str sr="arg0" ve="3">net.beaconradar.NOTIF_REQ_SCAN</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="2"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0">
+				<var>%Scanlength</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">net.beaconradar.NOTIF_REQ_PAUSE</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="2"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ProcessLocations</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>30</code>
+			<Int sr="arg0">
+				<var>%Scanfreq</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">%count+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Scan</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%count2</Str>
+			<Str sr="arg1" ve="3">%count2+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%count2</lhs>
+					<op>7</op>
+					<rhs>100</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task131">
+		<cdate>1483454252329</cdate>
+		<edate>1484583214092</edate>
+		<id>131</id>
+		<nme>NewLocation</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%var</Str>
+			<Str sr="arg1" ve="3">%Locations()</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">UpdatePresence</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%var</Str>
+			<Str sr="arg3" ve="3">arrived</Str>
+			<Str sr="arg4" ve="3">%return</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Location</lhs>
+					<op>2</op>
+					<rhs>%var</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">UpdatePresence</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%var</Str>
+			<Str sr="arg3" ve="3">departed</Str>
+			<Str sr="arg4" ve="3">%return</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Location</lhs>
+					<op>3</op>
+					<rhs>%var</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%return</lhs>
+					<op>2</op>
+					<rhs>error</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">UpdatePresence</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Tasker</Str>
+			<Str sr="arg3" ve="3">arrived</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Home</lhs>
+					<op>2</op>
+					<rhs>Home</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">UpdatePresence</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Tasker</Str>
+			<Str sr="arg3" ve="3">departed</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Home</lhs>
+					<op>2</op>
+					<rhs>Away</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task54">
+		<cdate>1484433259593</cdate>
+		<edate>1484435038291</edate>
+		<id>54</id>
+		<Action sr="act0" ve="7">
+			<code>725543659</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ExpirationDuration>&lt;null&gt;</ExpirationDuration>
+					<ExpirationDuration-type>java.lang.String</ExpirationDuration-type>
+					<Interval>&lt;null&gt;</Interval>
+					<Interval-type>java.lang.String</Interval-type>
+					<Listen>0</Listen>
+					<Listen-type>java.lang.String</Listen-type>
+					<LocationReportName>&lt;null&gt;</LocationReportName>
+					<LocationReportName-type>java.lang.String</LocationReportName-type>
+					<NumberOfUpdates>&lt;null&gt;</NumberOfUpdates>
+					<NumberOfUpdates-type>java.lang.String</NumberOfUpdates-type>
+					<Priority>&lt;null&gt;</Priority>
+					<Priority-type>java.lang.String</Priority-type>
+					<RetrieveFirstLocation>false</RetrieveFirstLocation>
+					<RetrieveFirstLocation-type>java.lang.Boolean</RetrieveFirstLocation-type>
+					<SmallestDisplacement>&lt;null&gt;</SmallestDisplacement>
+					<SmallestDisplacement-type>java.lang.String</SmallestDisplacement-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Stopping Location Monitor
+Update Type: No Power</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alaccuracy
+Accuracy
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%alaltitude
+Altitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%albearing
+Bearing (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%allatitude
+Latitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%alupdatetype
+Update Type (High Accuracy, Balanced, Low Power,No Power)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%allongitude
+Longitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%alprovider
+Provider
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%alspeed
+Speed in meters/second over ground (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%altime
+Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%altrackingdata
+Tracking Data
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Listen ExpirationDuration Interval NumberOfUpdates Priority SmallestDisplacement LocationReportName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>01b8c0a2-b925-4b43-89f5-ae09f451f779</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentRequestLocationReport</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigRequestLocationReport</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetChecksHigh</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task55">
+		<cdate>1484433307614</cdate>
+		<edate>1484434998882</edate>
+		<id>55</id>
+		<Action sr="act0" ve="7">
+			<code>725543659</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ExpirationDuration>&lt;null&gt;</ExpirationDuration>
+					<ExpirationDuration-type>java.lang.String</ExpirationDuration-type>
+					<Interval>3</Interval>
+					<Interval-type>java.lang.String</Interval-type>
+					<Listen>1</Listen>
+					<Listen-type>java.lang.String</Listen-type>
+					<LocationReportName>&lt;null&gt;</LocationReportName>
+					<LocationReportName-type>java.lang.String</LocationReportName-type>
+					<NumberOfUpdates>&lt;null&gt;</NumberOfUpdates>
+					<NumberOfUpdates-type>java.lang.String</NumberOfUpdates-type>
+					<Priority>100</Priority>
+					<Priority-type>java.lang.String</Priority-type>
+					<RetrieveFirstLocation>true</RetrieveFirstLocation>
+					<RetrieveFirstLocation-type>java.lang.Boolean</RetrieveFirstLocation-type>
+					<SmallestDisplacement>&lt;null&gt;</SmallestDisplacement>
+					<SmallestDisplacement-type>java.lang.String</SmallestDisplacement-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Starting Location Monitor
+Retrieve First Location: true
+Interval: 3 seconds
+Update Type: High Accuracy</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alaccuracy
+Accuracy
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%alaltitude
+Altitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%albearing
+Bearing (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%allatitude
+Latitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%alupdatetype
+Update Type (High Accuracy, Balanced, Low Power,No Power)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%allongitude
+Longitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%alprovider
+Provider
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%alspeed
+Speed in meters/second over ground (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%altime
+Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%altrackingdata
+Tracking Data
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Listen ExpirationDuration Interval NumberOfUpdates Priority SmallestDisplacement LocationReportName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>a068cd64-1095-46c6-be85-080ed95f4972</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentRequestLocationReport</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigRequestLocationReport</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetChecksLow</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task56">
+		<cdate>1484433319288</cdate>
+		<edate>1484435019967</edate>
+		<id>56</id>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>725543659</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ExpirationDuration>&lt;null&gt;</ExpirationDuration>
+					<ExpirationDuration-type>java.lang.String</ExpirationDuration-type>
+					<Interval>3</Interval>
+					<Interval-type>java.lang.String</Interval-type>
+					<Listen>1</Listen>
+					<Listen-type>java.lang.String</Listen-type>
+					<LocationReportName>&lt;null&gt;</LocationReportName>
+					<LocationReportName-type>java.lang.String</LocationReportName-type>
+					<NumberOfUpdates>&lt;null&gt;</NumberOfUpdates>
+					<NumberOfUpdates-type>java.lang.String</NumberOfUpdates-type>
+					<Priority>100</Priority>
+					<Priority-type>java.lang.String</Priority-type>
+					<RetrieveFirstLocation>true</RetrieveFirstLocation>
+					<RetrieveFirstLocation-type>java.lang.Boolean</RetrieveFirstLocation-type>
+					<SmallestDisplacement>&lt;null&gt;</SmallestDisplacement>
+					<SmallestDisplacement-type>java.lang.String</SmallestDisplacement-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Starting Location Monitor
+Retrieve First Location: true
+Interval: 3 seconds
+Update Type: High Accuracy</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alaccuracy
+Accuracy
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%alaltitude
+Altitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%albearing
+Bearing (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%allatitude
+Latitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%alupdatetype
+Update Type (High Accuracy, Balanced, Low Power,No Power)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%allongitude
+Longitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%alprovider
+Provider
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%alspeed
+Speed in meters/second over ground (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%altime
+Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%altrackingdata
+Tracking Data
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Listen ExpirationDuration Interval NumberOfUpdates Priority SmallestDisplacement LocationReportName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>a068cd64-1095-46c6-be85-080ed95f4972</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentRequestLocationReport</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigRequestLocationReport</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetChecksLow</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task57">
+		<cdate>1484433430170</cdate>
+		<edate>1484433433041</edate>
+		<id>57</id>
+		<Action sr="act0" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Locations</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%name</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>369</code>
+			<Str sr="arg0" ve="3">%Locations</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>369</code>
+			<Str sr="arg0" ve="3">%Locations</Str>
+			<Int sr="arg1" val="13"/>
+		</Action>
+	</Task>
+	<Task sr="task58">
+		<cdate>1484433460368</cdate>
+		<edate>1484433463448</edate>
+		<id>58</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%array</Str>
+			<Str sr="arg1" ve="3">array</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%namearray</Str>
+			<Str sr="arg1" ve="3">%name%array</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%%namearray</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ProcessLocations</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task59">
+		<cdate>1484433504255</cdate>
+		<edate>1484433507230</edate>
+		<id>59</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%name</Str>
+			<Str sr="arg1" ve="3">%%name,%rssi</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%%name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%name</Str>
+			<Str sr="arg1" ve="3">%rssi</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%%name</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task60">
+		<cdate>1484433557574</cdate>
+		<edate>1484583222139</edate>
+		<id>60</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Home</Str>
+			<Str sr="arg1" ve="3">Home</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Home</lhs>
+					<op>3</op>
+					<rhs>Home</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>133</code>
+			<Int sr="arg0" val="21"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task61">
+		<cdate>1484434751642</cdate>
+		<edate>1484502908043</edate>
+		<id>61</id>
+		<nme>SetChecksLow</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>133</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="25"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>133</code>
+			<Int sr="arg0" val="6"/>
+			<Int sr="arg1" val="30"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task62">
+		<cdate>1484434751642</cdate>
+		<edate>1484495288112</edate>
+		<id>62</id>
+		<nme>SetChecksHigh</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>133</code>
+			<Int sr="arg0" val="6"/>
+			<Int sr="arg1" val="600"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>133</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="60"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1484506323367</cdate>
+		<edate>1484506329220</edate>
+		<id>8</id>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task85">
+		<cdate>1483671281056</cdate>
+		<edate>1484583274516</edate>
+		<id>85</id>
+		<nme>FirstRun</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tasks</Str>
+			<Str sr="arg1" ve="3">%TRUN</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%tasks</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%attext</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>1304982781</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: Locations (separate multiple with comma ex: bedroom,livingroom)
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 0
+Input Text: Beacon1,Beacon2
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"Beacon1,Beacon2","inputType":"0","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"Locations (separate multiple with comma ex: bedroom,livingroom)"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%attext</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Locations</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%var</Str>
+			<Str sr="arg1" ve="3">%attext()</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Locations</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%var</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ChangeNot</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%HomeNot</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PermNot</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%task</Str>
+			<Str sr="arg1" ve="3">%tasks()</Str>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Periodavg</Str>
+			<Str sr="arg1" ve="3">6</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Threshold</Str>
+			<Str sr="arg1" ve="3">-95</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Scanlength</Str>
+			<Str sr="arg1" ve="3">1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Scanfreq</Str>
+			<Str sr="arg1" ve="3">1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Firstrun</Str>
+			<Str sr="arg1" ve="3">done</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>1879487834</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Listen>1</Listen>
+					<Listen-type>java.lang.String</Listen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Starting Geofence Monitor</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Listen </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>1bd3b0e8-6d09-4962-b500-2eeb24bb642c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentRequestGeofenceReport</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigRequestGeofenceReport</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Str sr="arg1" ve="3">%Home | %Location</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PermNot</lhs>
+					<op>12</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+			<ListElementItem sr="item0">
+				<label>Disable</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Disable</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%task</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%task</lhs>
+					<op>3</op>
+					<rhs>FirstRun</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1304982781</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: User
+Icon: android.resource://net.dinglisch.android.taskerm/hd_social_person
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 0
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputType":"0","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"icon":"android.resource://net.dinglisch.android.taskerm/hd_social_person","textSettings":{"textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"User"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>07454212-1a13-4d0e-9732-4d9bc7d639e2</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%User</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%User</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%attext</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>1304982781</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: WIFI SSID
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 0
+Input Text: yourWIFIname
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"yourWIFIname","inputType":"0","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"WIFI SSID"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SSID</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task88">
+		<cdate>1482877123234</cdate>
+		<edate>1484503822989</edate>
+		<id>88</id>
+		<nme>Beacons</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">FirstRun</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Firstrun</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Firstrun</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rect</Str>
+			<Str sr="arg1" ve="3">Rectangle</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rectcount</Str>
+			<Str sr="arg1" ve="3">%rect%count</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Status</Str>
+			<Str sr="arg1" ve="3">%rectcount</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Locations(%count)</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Beacons</Str>
+			<Str sr="arg1" ve="3">%Home | %Location</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PermNot</lhs>
+					<op>12</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+			<ListElementItem sr="item0">
+				<label>Disable</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Disable</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Status</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">1:6</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%loc</Str>
+			<Str sr="arg1" ve="3">Loc</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%loccount</Str>
+			<Str sr="arg1" ve="3">%loc%count</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Status</Str>
+			<Str sr="arg1" ve="3">%loccount</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Locations(%count)</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rssi</Str>
+			<Str sr="arg1" ve="3">RSSI</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rssicount</Str>
+			<Str sr="arg1" ve="3">%rssi%count</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Status</Str>
+			<Str sr="arg1" ve="3">%rssicount</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Locations(%count)</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>com.radiusnetworks.radbeacon.RadBeaconListActivity</cls>
+			<pkg>com.radiusnetworks.radbeacon</pkg>
+		</Img>
+	</Task>
+	<Task sr="task89">
+		<cdate>1483459306997</cdate>
+		<edate>1484495302663</edate>
+		<id>89</id>
+		<nme>Away</nme>
+		<Action sr="act0" ve="7">
+			<code>725543659</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ExpirationDuration>&lt;null&gt;</ExpirationDuration>
+					<ExpirationDuration-type>java.lang.String</ExpirationDuration-type>
+					<Interval>&lt;null&gt;</Interval>
+					<Interval-type>java.lang.String</Interval-type>
+					<Listen>0</Listen>
+					<Listen-type>java.lang.String</Listen-type>
+					<LocationReportName>&lt;null&gt;</LocationReportName>
+					<LocationReportName-type>java.lang.String</LocationReportName-type>
+					<NumberOfUpdates>&lt;null&gt;</NumberOfUpdates>
+					<NumberOfUpdates-type>java.lang.String</NumberOfUpdates-type>
+					<Priority>&lt;null&gt;</Priority>
+					<Priority-type>java.lang.String</Priority-type>
+					<RetrieveFirstLocation>false</RetrieveFirstLocation>
+					<RetrieveFirstLocation-type>java.lang.Boolean</RetrieveFirstLocation-type>
+					<SmallestDisplacement>&lt;null&gt;</SmallestDisplacement>
+					<SmallestDisplacement-type>java.lang.String</SmallestDisplacement-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Stopping Location Monitor
+Update Type: No Power</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alaccuracy
+Accuracy
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%alaltitude
+Altitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%albearing
+Bearing (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%allatitude
+Latitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%alupdatetype
+Update Type (High Accuracy, Balanced, Low Power,No Power)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%allongitude
+Longitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%alprovider
+Provider
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%alspeed
+Speed in meters/second over ground (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%altime
+Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%altrackingdata
+Tracking Data
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid Listen ExpirationDuration Interval NumberOfUpdates Priority SmallestDisplacement LocationReportName </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>e9654b64-407d-404b-92f4-4e4771025b12</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentRequestLocationReport</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigRequestLocationReport</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ExitHome</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Home</lhs>
+					<op>2</op>
+					<rhs>Home</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task91">
+		<cdate>1483667264069</cdate>
+		<edate>1483667264069</edate>
+		<id>91</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ChangeNot</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%ChangeNot</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Checkbox11</Str>
+			<Int sr="arg2" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Checkbox11</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task93">
+		<cdate>1484105264035</cdate>
+		<edate>1484105264035</edate>
+		<id>93</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Status</Str>
+		</Action>
+	</Task>
+	<Task sr="task96">
+		<cdate>1484107665573</cdate>
+		<edate>1484107665573</edate>
+		<id>96</id>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">%tap_label</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task97">
+		<cdate>1483666149489</cdate>
+		<edate>1483666149489</edate>
+		<id>97</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>1304982781</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Dialog>Input</Dialog>
+					<Dialog-type>java.lang.String</Dialog-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Dialog Type: Input
+Title: WIFI SSID
+Text Size: 20
+Text Color: #FFFFFF
+Button Text Color: #FFFFFF
+Input Type: 0
+Input Text: %SSID
+Output Variable: attext
+Dim Background: true
+Top Margin: 16
+Bottom Margin: 16
+Bottom Buttons Top Margin: 16
+Bottom Buttons Bottom Margin: 16
+Cancelable: true
+Turn Screen On: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%atbutton
+number of the button that was pressed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%attext
+Input text
+Text that was entered in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters Dialog plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputText":"#§£§£§@VARIABLE#§£§£§@%SSID#§£§£§@VARIABLE#§£§£§@","inputType":"0","outputVariable":"attext","useVoice":false,"advancedSettings":{"cancelable":true,"turnScreenOn":true},"backgroundSettings":{"dimBackground":true},"dialogButtomButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"dialogTitleButtons":{"buttonsBottomMargin":"16","buttonsTopMargin":"16","commands":[],"images":[],"sizes":[]},"textSettings":{"buttonTextColor":"#FFFFFF","textColor":"#FFFFFF","textSize":"20","useHtml":false},"title":"WIFI SSID"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>92eb8cb7-a862-43f6-abf5-b5b87810b0b9</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentDialog</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigDialog</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SSID</Str>
+			<Str sr="arg1" ve="3">%attext</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%attext</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+</TaskerData>
